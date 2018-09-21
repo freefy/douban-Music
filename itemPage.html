@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/listPage.css">
+</head>
+<body>
+    <div class="db-g-nav">
+        <div class="db-nav-left">
+            <ul>
+                <li><a href="#">豆瓣</a></li>
+                <li><a href="#">读书</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">音乐</a></li>
+                <li><a href="#">同城</a></li>
+                <li><a href="#">小组</a></li>
+                <li><a href="#">阅读</a></li>
+                <li><a href="#">FM</a></li>
+                <li><a href="#">时间</a></li>
+                <li><a href="#">豆品</a></li>
+                <li><a href="#">更多</a></li>
+            </ul>
+        </div>
+        <div class="db-nav-right">
+            <ul>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">下载豆瓣客户端</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="db-nav-wrapper">
+        <div class="db-nav-header">
+            <div class="db-nav-search">
+                <div class="db-logo">
+                    <a href="https://music.douban.com"></a>
+                </div>
+                <div class="db-search">
+                    <form action="https://music.douban.com/subject_search">
+                        <div class="db-input">
+                            <input class = 'input' type="text" name = 'search_text' placeholder="唱片名、表演者、条码、ISRC" autocomplete = 'off'>
+                        </div>
+                        <span><input type="submit" class ='btn' value ='' class='submit'></span>
+                    </form>
+                    <div class="db-search-suggest">
+                        <ul class='suggest-box'>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          
+            
+        </div>
+        <div class="db-nav-list">
+                <ul>
+                    <li><a href="#">音乐人</a></li>
+                    <li><a href="#">潮潮豆瓣音乐周</a></li>
+                    <li><a href="#">金羊毛计划</a></li>
+                    <li><a href="#">专题</a></li>
+                    <li><a href="#">排行榜</a></li>
+                    <li><a href="#">分类浏览</a></li>
+                    <li><a href="#">乐评</a></li>
+                    <li><a href="#">豆瓣FM</a></li>
+                    <li><a href="#">歌单</a></li>
+                    <li><a href="#">阿比鹿音乐奖</a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <h1 class='title'></h1>
+        <div class="content">
+            <div class="content-wrapper">
+                <div class="content-left">
+                    <div class="music-infor">
+                        <div class="content-infor">
+                            <div class="logo"><a href=''><img src="" alt=""></a></div>
+                            <div class="music-infors">
+                                <p class='p1'><span>表演者:</span><span class='p1-data'></span></p>
+                                <!-- <p class='p1'><span>流派:</span><span class='p1-data'></span></p> -->
+                                <p class='p1'><span>专辑类型:</span><span class='p1-data'></span></p>
+                                <p class='p1'><span>介质:</span><span class='p1-data'></span></p>
+                                <!-- <p class='p1'><span>发行时间:</span><span class='p1-data'></span></p> -->
+                                <p class='p1'><span>出版者:</span><span class='p1-data'></span></p>
+                                <!-- <p class='p1'><span>唱片数:</span><span class='p1-data'></span></p> -->
+                            </div>
+                        </div>
+                        <div class="content-comment">
+                            <p class='com'>豆瓣评分</p>
+                            <div class="rating-self clear">
+                                <strong class='rating-num'>9.9</strong>
+                                <!-- <div class="rating-star">
+                                    <div class="start"></div>
+                                    <div class="rating-sum">
+                                        <a href="">
+                                            <span class='people-num'></span>人评价
+                                        </a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest">
+                        <ul>
+                            <li><a href="#">想听</a></li>
+                            <li><a href="#">在听</a></li>
+                            <li><a href="#">听过</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="tag">
+                        <p>豆瓣成员常用标签:</p>
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src='./js/jquery-3.3.1.min.js'></script>
+    <script src='./js/index.js'></script>
+<script src='./js/itemPage.js'></script>
+</body>
+</html>

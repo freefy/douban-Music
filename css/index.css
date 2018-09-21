@@ -1,0 +1,58 @@
+.db-wrapper{
+    width:1024px;
+    margin: 30px auto;
+}
+.content-left{
+    width:675px;
+    margin-right:10px;
+}
+.populer-article{
+    width:675px;
+    margin-top:30px;
+}
+.weekly-article{
+    width:675px;
+    border-bottom:2px solid #02A682;
+}
+.weekly-article li{
+    display:inline-block;
+    padding:3px 0;
+    font-size:18px;
+}
+.weekly-article b{
+    color:#aaa;
+    font-size:12px;
+    font-style:none;
+}
+.musicList {
+    width:660px;
+    margin:0 auto;
+}
+.musicList li{
+    float:left;
+    width:140px;
+    height:190px;
+    margin: 10px 20px 10px 0;
+    border:1px solid blue;
+}
+.musicList .img-box{
+    width:130px;
+    height:130px;
+    margin:5px auto;
+
+}
+.musicList .img-box img{
+    width:100%;
+    height:100%;
+}
+.musicList .item{
+    width:140px;
+    margin-top:6px;
+}
+.item p{
+    width:140px;
+    text-align:center;
+    padding-bottom: 8px ;
+}
+
+
