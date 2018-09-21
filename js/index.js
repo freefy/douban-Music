@@ -1,8 +1,11 @@
 (function(){
     var $submit = $('.submit'),
         $input = $('.input'),
-        $suggestBox = $('.suggest-box');
-        $search = $('db-search');
+        $suggestBox = $('.suggest-box'),
+        $search = $('db-search'),
+        // $li = $('.header li'),
+        $muPeo = $('.musicPeople'),
+        $muUp = $('.musicUp');
         $input.on('input',function(e){
             e.preventDefault();
             var value = $(this).val();
@@ -56,5 +59,14 @@
               let _u = _url.substring( 7 );
               return 'https://images.weserv.nl/?url=' + _u;
             }
-          }
+        }
+        $('.header li').click(function(){
+            $('.active-two').removeClass();
+            console.log(this);
+            $(this).addClass('active-two');
+            var index = $(this).index();
+            $('.show').removeClass('show');
+            $('.music').eq(index).addClass('show');
+
+        })
 })()

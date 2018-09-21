@@ -24,10 +24,10 @@ var nowIndex = 0;
                 changeStyle();
             })
             $('.lbt').on('mouseenter', function () {
-                $('.btn').show();
+                $('div.btn').show();
                 clearTimeout(timer);
             }).on('mouseleave', function () {
-                $('.btn').hide();
+                $('div.btn').hide();
                 slideAuto();
             })
         }
